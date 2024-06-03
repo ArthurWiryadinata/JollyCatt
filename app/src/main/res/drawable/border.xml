@@ -1,0 +1,13 @@
+<!-- combined_border_transparency.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" /> <!-- Transparent background -->
+            <stroke
+                android:width="1dp"
+                android:color="#000000" /> <!-- Border color and width -->
+            <corners android:radius="8dp" /> <!-- Corner radius -->
+        </shape>
+    </item>
+</layer-list>

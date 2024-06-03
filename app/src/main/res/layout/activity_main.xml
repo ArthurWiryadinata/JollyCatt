@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="Welcome Back!"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nice To See You Again."
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="1dp"/>
+
+    <EditText
+        android:id="@+id/UserNameLoginText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="1dp"/>
+
+    <EditText
+        android:id="@+id/UserPasswordLoginText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Enter Your Password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/ContinueJourney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/border_button"
+        android:fontFamily="sans-serif"
+        android:padding="14dp"
+        android:text="Login Here" />
+
+    <TextView
+        android:id="@+id/loginpagebtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Didn’t have an account? Register here!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="11dp"
+        android:textStyle="bold" />
+</LinearLayout>

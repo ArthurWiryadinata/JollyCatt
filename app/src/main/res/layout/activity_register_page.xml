@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="New Here?"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="210dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell Me About YourSelf."
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="1dp"/>
+
+    <EditText
+        android:id="@+id/UserNameRegisterText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="1dp"/>
+
+    <EditText
+        android:id="@+id/UserPasswordRegisterText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Enter Your Password"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="1dp"/>
+
+    <EditText
+        android:id="@+id/UserPhoneRegisterText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="08xxxxx"
+        android:textSize="12dp"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/border"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/BeginYourJourney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Register Here "
+        android:background="@drawable/border_button"
+        android:padding="14dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/LoginAccRegisterText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:text="Already has an account? Log in here"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="11dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
